@@ -21,7 +21,7 @@ function tinhChanLe() {
   var num3Value = document.getElementById("num3").value * 1;
   var rsSoChan = 0;
   var rsSoLe = 0;
-  console.log({ num1Value, num2Value, num3Value });
+
   if (
     Number.isInteger(num1Value) &&
     Number.isInteger(num2Value) &&

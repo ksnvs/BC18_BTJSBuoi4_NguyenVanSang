@@ -38,21 +38,19 @@ function sapXep() {
       num1Value = _temp.num1;
       num2Value = _temp.num2;
     }
-    console.log({ num1Value, num2Value, num3Value });
 
     if (num1Value < num3Value) {
       _temp = hoanDoi(num1Value, num3Value);
       num1Value = _temp.num1;
       num3Value = _temp.num2;
     }
-    console.log({ num1Value, num2Value, num3Value });
 
     if (num2Value < num3Value) {
       _temp = hoanDoi(num2Value, num3Value);
       num2Value = _temp.num1;
       num3Value = _temp.num2;
     }
-    console.log({ num1Value, num2Value, num3Value });
+
     rsNum1El.innerText = num1Value.toString();
     rsNum2El.innerText = num2Value.toString();
     rsNum3El.innerText = num3Value.toString();
